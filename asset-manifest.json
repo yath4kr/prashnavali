@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/prashnavali/static/css/main.ec2f0444.css",
+    "main.js": "/prashnavali/static/js/main.48eca9d4.js",
+    "static/media/brain_home.png": "/prashnavali/static/media/brain_home.39c56b1148f00b023c7a.png",
+    "static/media/office-worker.png": "/prashnavali/static/media/office-worker.c9d78425b891cf5a3d47.png",
+    "index.html": "/prashnavali/index.html",
+    "main.ec2f0444.css.map": "/prashnavali/static/css/main.ec2f0444.css.map",
+    "main.48eca9d4.js.map": "/prashnavali/static/js/main.48eca9d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec2f0444.css",
+    "static/js/main.48eca9d4.js"
+  ]
+}
