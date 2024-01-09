@@ -1,38 +1,237 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: rgb(14, 14, 14);
+}
+
+.navbar{
+  background-color: rgb(14, 14, 14);
+  height: 10vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+link{
+  text-decoration: none;
+}
+
+.loading{
+  color: rgb(38, 255, 237);
+}
+
+.logo{
+  color: aliceblue;
+  width: fit-content;  
+  height: inherit;
+  margin-top: 1.1%;
+  margin-left: 0.75%;
+  padding: 0.5%;
+  font-size: large;
+  cursor: pointer;
+}
+
+.navElements{
+  margin-top: 1.25%;
+  width: 35%; 
+  display: flex;
+  justify-content: space-around;
+  height: fit-content; 
+  text-decoration: none;
+}
+
+.navText{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: large;
+}
+
+.form{
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid aliceblue;
+  box-shadow: 1px 1px 15px rgb(38, 255, 237);
+  display: block;
+  width: fit-content;
+  height: 50vh;
+  padding: 5%;
+  background-color: rgb(20, 20, 20);
+  color: rgb(38, 255, 237);
+}
+
+.form input{
+  background-color: rgb(20, 20, 20);
+  border: 1px solid rgb(38, 255, 237);
+  border-radius: 4px;
+  color: aliceblue;
+  padding: 5px 15px;
+}
+
+.formElement{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.sachin{
+  padding: 6px 18px 6px 18px;
+  border-radius: 6px;
+}
+
+.sachin:hover{
+  cursor: pointer;
+  background-color: rgb(38, 255, 237);
+}
+
+.questBody{
+  margin-top: 5%;
+  margin-left: 5%;
+
+}
+
+.nextButton{
+  padding: 6px 18px 6px 18px;
+  color: rgb(14, 14, 14);
+  border-radius: 4px;
+  background-color: rgb(38, 255, 237);
+  cursor: pointer;
+}
+
+.result{
+  width: fit-content;
+  margin-top: 5%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.options{
+  color: aliceblue;
+}
+
+.options :hover{
+  cursor: pointer;
+  color: rgb(38, 255, 237);
+}
+
+.login-heading{
+  margin-top: 1%;
+  color: rgb(38, 255, 237);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.error-msg{
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-main{
+  border: 1px solid white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgb(20, 20, 20);
+  color: aliceblue;
+  padding: 5%;
+  border-radius: 14px;
+  box-shadow: 1px 1px 15px rgb(38, 255, 237);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile-title{
+  text-align: center;
+}
+
+span{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.dp{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('../public/office-worker.png');
+  background-size: cover;
+}
+
+.home-box{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 350px;
+  justify-content: space-around;
+  background-color: rgb(38, 255, 237);
 }
 
-.App-link {
-  color: #61dafb;
+.home-text{
+  float: left;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-shadow: black;
+  color: rgb(14, 14, 14);
+  font-weight: bolder;
+  font-size: xx-large;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-banner{
+  height: 200px;
+  width: 300px;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: right;
+  background: url('../public/brain_home.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 25%;
+  background-blend-mode: lighten;
+}
+
+.questBody{
+  color: rgb(38, 255, 237);
+}
+
+.result{
+  color: azure;
+}
+
+.profile-main{
+  text-align: center;
+}
+
+.footer{
+  margin-top: 5%;
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.copy-right{
+  position: relative;
+  bottom: 0;
+  margin-bottom: 0px;
+  margin-top: auto;
+}
+
+.home-head{
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+.profile-page{
+  text-align: center;
+  color: aliceblue;
+  margin-top: 5px;
 }
